@@ -21,11 +21,8 @@ const handler: NextApiHandler<WebAppManifest> = (_req, res) => {
     ],
     name,
     scope: '/',
-    // eslint-disable-next-line @typescript-eslint/camelcase
     short_name: name,
-    // eslint-disable-next-line @typescript-eslint/camelcase
     start_url: '/',
-    // eslint-disable-next-line @typescript-eslint/camelcase
     theme_color: '#544643'
   }
 
